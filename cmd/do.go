@@ -35,7 +35,7 @@ to quickly create a Cobra application.`,
 			fmt.Println(err)
 			return
 		}
-		fmt.Println("Deleting task " + index)
+		fmt.Println("Task " + index + " was set as complete!")
 	},
 }
 
